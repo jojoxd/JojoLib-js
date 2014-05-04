@@ -1,4 +1,4 @@
 JojoLib.js
 ==========
 
-Librarie for JojoXD.nl
+Library for JojoXD.nl
