@@ -1,5 +1,5 @@
 <?
-	header("Content-type: application/x-javascript")
+	header("Content-type: application/x-javascript");
 	
 	$modules = explode("," $_GET['modules']);
 	
@@ -35,6 +35,5 @@
 				// load all twitch index dependencies, non-debugged
 				echo file_get_contents("./modules/twitchIndex.js");
 			}
-			
 		}
 	}
