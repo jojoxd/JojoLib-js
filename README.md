@@ -1,4 +1,27 @@
-JojoLib-js
+## Usage
+
+This library uses JSON to set the functions, so it's really easy to use.
+
+logging using library:
+```javascript
+JojoLib.out.log("prefix", "message");
+```
+same goes for warn and todo.
+
 ==========
 
-Library for JojoXD.nl
+### Error logging
+There's also an error helper, which you can call with:
+```javascript
+throw new JojoLib.error.undefinedError("error name", "error message");
+```
+
+==========
+
+###[WIP]Twitch
+
+just call render to add to screen:
+```javascript
+JojoLib.twitch.render();
+```
+
