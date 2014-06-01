@@ -26,9 +26,26 @@ JojoLib.core.getURLParam("parameter to get value from");
 It's that easy :)
 
 ==========
-###[WIP]Twitch
+### Twitch
 
 just call render to add to screen:
 ```javascript
-JojoLib.twitch.render();
+JojoLib.twitch.render("who", "where(id)");
 ```
+
+==========
+### Youtube
+
+if you want to add a youtube player to your website, you can do this: 
+```javascript
+JojoLib.youtube.player({width: "auto", height: 360, UvID: "unique video ID"}, "the ID where it needs to be placed");
+```
+
+for a playlist, you add an entry for it in the JSON, like so: 
+```javascript
+JojoLib.youtube.player({width: "auto", height: 360, UvID: "unique video ID", UpID: "the playlist ID"}, "the ID where it needs to be placed");
+```
+
+playlist might be broken because it is untedted.
+width or height can be auto. NOT BOTH!
+you can also add an autoplay entry (not required).
