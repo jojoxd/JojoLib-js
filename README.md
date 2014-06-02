@@ -49,3 +49,27 @@ JojoLib.youtube.player({width: "auto", height: 360, UvID: "unique video ID", UpI
 playlist might be broken because it is untedted.  
 width or height can be auto. NOT BOTH!  
 you can also add an autoplay entry (not required).  
+
+==========
+### Debug Mode
+
+to get in debug mode, set JojoLib.vars.debug to true at the beginning of your code:
+```javascript
+JojoLib.vars.debug = true;
+```
+debug mode will view a lot of variables, so it can slow down the page loading a bit.  
+please use only for setsion purposes
+
+==========
+### version check
+
+version check runs automatically, you can disable it with:
+```javascript
+JojoLib.vars.version.versionCheck = false;
+```
+
+you can do the same for the changelog:
+```javascript
+JojoLib.vars.version.showChangelog = false;
+```
+
