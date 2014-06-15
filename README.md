@@ -73,3 +73,10 @@ you can do the same for the changelog:
 JojoLib.vars.version.showChangelog = false;
 ```
 
+==========
+### Third party fixes
+
+These fixes will automatically run, but you can manipulate them by putting this line in your code: 
+```javascript
+JojoLib.vars.fixes = {fa: true, cse: true, cseToBootstrap: true, twitterWidth: true, bootstrapWidth: true,};
+```
