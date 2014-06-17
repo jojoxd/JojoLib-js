@@ -1,7 +1,7 @@
 ## Usage
 
-This library uses JSON to set the functions, so it's really easy to use.
-This Library uses jQuery!
+This library uses Javascript literal notation (not JSON) to set the functions, so it's really easy to use.  
+This Library requires jQuery!
 
 logging using library:
 ```javascript
@@ -55,7 +55,7 @@ you can also add an autoplay entry (not required).
 
 to get in debug mode, set JojoLib.vars.debug to true at the beginning of your code:
 ```javascript
-JojoLib.vars.debug = true;
+JojoLib.settings.debug = true;
 ```
 debug mode will view a lot of variables, so it can slow down the page loading a bit.  
 please use only for setsion purposes
@@ -65,12 +65,12 @@ please use only for setsion purposes
 
 version check runs automatically, you can disable it with:
 ```javascript
-JojoLib.vars.version.versionCheck = false;
+JojoLib.settings.version.versionCheck = false;
 ```
 
 you can do the same for the changelog:
 ```javascript
-JojoLib.vars.version.showChangelog = false;
+JojoLib.settings.version.showChangelog = false;
 ```
 
 ==========
